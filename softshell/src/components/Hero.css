@@ -1,0 +1,62 @@
+.quote-form {
+    margin-top: 20px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+    width: 90%; /* Increased width */
+    max-width: 500px; /* Larger size */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Dark Mode */
+  .dark-mode .quote-form {
+    background-color: #333;
+    box-shadow: 0px 5px 8px rgba(255, 255, 255, 0.2);
+  }
+  
+  .quote-form input {
+    width: 95%;
+    padding: 12px;
+    margin: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .submit-btn {
+    width: 55%;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: #f8c537;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background-color: #ffbb33;
+  }
+  .confirmation-message {
+    font-size: 16px;
+    color: #4bb543;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Dark Mode Confirmation */
+  .dark-mode .confirmation-message {
+    color: #81c784;
+  }
+  

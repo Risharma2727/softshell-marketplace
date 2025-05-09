@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* Light Mode */
+  .light-mode {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
+  /* Theme Toggle Button */
+  .theme-toggle {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 18px;
+    border: none;
+    background-color: #4b6cb7;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .theme-toggle:hover {
+    background-color: #3553a5;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  /* Light Mode Hero */
+  .light-mode .hero {
+    background: linear-gradient(to right, #ff6b6b, #f8c537);
+    color: white;
+  }
+  
+  /* Dark Mode Hero */
+  .dark-mode .hero {
+    background: linear-gradient(to right, #222, #444);
+    color: white;
+  }
+  
+  /* Section Styling */
+  .section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  /* Why Choose Us Section */
+.why-choose-us {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Feature Cards */
+  .feature-card {
+    width: 22%;
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Icon Styling */
+  .icon {
+    font-size: 30px;
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode .feature-card {
+    background: #333;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark-mode .feature-card:hover {
+    box-shadow: 0px 6px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Light Mode Feature Cards */
+  .light-mode .feature-card {
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Dark Mode Feature Cards */
+  .dark-mode .feature-card {
+    background: #333;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Icon Styling */
+  .icon {
+    font-size: 30px;
+  }
+  
+  /* Smooth Transition */
+  .light-mode, .dark-mode {
+    transition: all 0.3s ease-in-out;
+  }
+  /* Light Mode */
+.light-mode .how-it-works,
+.light-mode .why-choose-us {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Dark Mode */
+.dark-mode .how-it-works,
+.dark-mode .why-choose-us {
+  background-color: #222;
+  color: white;
+}
+.dark-mode header, 
+.dark-mode nav {
+  border-bottom: none; /* Remove any bottom border */
+  background-color: #222; /* Ensure it blends with dark mode */
+}
